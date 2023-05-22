@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+  --clr--white: #f3f3f3;
+  --clr-black: #000;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #f3f3f3;
+  text-decoration: none;
+  margin-inline: 20px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: #f3f3f3;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+nav ul li a:hover {
+  color: rgb(228, 79, 24);
+}
+
+.title:hover {
+  color: rgb(228, 79, 24);
+}
+
+p:hover {
+  color: rgb(228, 79, 24);
+}
